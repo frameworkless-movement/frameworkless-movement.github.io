@@ -1,0 +1,15 @@
+{
+  "name": "frameworkless-movement.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frameworkless-movement/frameworkless-movement.github.io.git"
+  },
+  "homepage": "https://github.com/frameworkless-movement/frameworkless-movement.github.io#readme",
+  "devDependencies": {
+    "http-server": "0.11.1"
+  }
+}
