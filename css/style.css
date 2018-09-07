@@ -1,0 +1,157 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%; }
+  html * {
+    box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+hr {
+  display: none; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+table {
+  table-layout: fixed; }
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url("../font/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Poppins-Bold.ttf") format("truetype"), url("../font/Poppins-Bold.woff") format("woff"); }
+@font-face {
+  font-family: 'IBMPlexSans-Regular';
+  src: url("../font/IBMPlexSans-Regular.eot?#iefix") format("embedded-opentype"), url("../font/IBMPlexSans-Regular.ttf") format("truetype"), url("../font/IBMPlexSans-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'IBMPlexSans-Bold';
+  src: url("../font/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"), url("../font/IBMPlexSans-Bold.ttf") format("truetype"), url("../font/IBMPlexSans-Bold.woff.woff") format("woff"); }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins-Bold", Helvetica, Arial, sans-serif; }
+
+body {
+  font-family: "IBMPlexSans-Regular", Helvetica, Arial, sans-serif;
+  background-color: #E5F7D5;
+  color: #242A53;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  padding: 90px; }
+  @media (min-width: 0) and (max-width: 768px) {
+    body {
+      padding: 30px; } }
+  @media (min-width: 0) and (max-width: 640px) {
+    body {
+      padding: 15px; } }
+  body strong {
+    font-family: "IBMPlexSans-Bold", Helvetica, Arial, sans-serif; }
+
+a:link,
+a:visited,
+button {
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  -moz-transition: 0.25s;
+  text-decoration: none;
+  color: #5C8489;
+  text-decoration: underline; }
+  a:link:hover, a:link:active,
+  a:visited:hover,
+  a:visited:active,
+  button:hover,
+  button:active {
+    text-decoration: none;
+    color: #245B62; }
+
+h1 {
+  font-size: 48px;
+  margin: 50px 0 10px 0;
+  padding: 0;
+  line-height: 1.2em; }
+  @media (min-width: 0) and (max-width: 640px) {
+    h1 {
+      font-size: 38px; } }
+
+h2 {
+  font-size: 40px;
+  margin: 40px 0 10px 0;
+  padding: 0;
+  line-height: 1.4em; }
+  @media (min-width: 0) and (max-width: 640px) {
+    h2 {
+      font-size: 28px; } }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 24px; }
+
+h5, h6 {
+  font-size: 20px; }
+
+p {
+  margin: 0 0 20px 0;
+  line-height: 1.5em; }
+
+ul, ol {
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1.5em; }
+
+.page_wrapper {
+  background-color: white;
+  margin: 0 auto;
+  padding: 40px 90px;
+  max-width: 1440px; }
+  @media (min-width: 0) and (max-width: 768px) {
+    .page_wrapper {
+      padding: 35px 50px; } }
+  @media (min-width: 0) and (max-width: 640px) {
+    .page_wrapper {
+      padding: 25px 25px; } }
+
+.logo {
+  text-align: center;
+  padding: 0 0 40px 0;
+  margin: 0; }
+  .logo img {
+    width: 350px;
+    max-width: 100%; }
+
+.github_badge {
+  text-align: right;
+  margin-bottom: 10px; }
+  @media (min-width: 0) and (max-width: 640px) {
+    .github_badge {
+      text-align: center;
+      margin-bottom: 20px; } }
+
+.introduction {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 80px; }
+
+.block_get_involved {
+  background-color: #D9F2E6;
+  margin: 60px -40px 5px -40px;
+  padding: 25px 40px; }
+  @media (min-width: 0) and (max-width: 768px) {
+    .block_get_involved {
+      margin: 60px -20px 5px -20px;
+      padding: 20px 20px; } }
+  @media (min-width: 0) and (max-width: 640px) {
+    .block_get_involved {
+      margin: 60px -10px 5px -10px;
+      padding: 10px 10px; } }
+  .block_get_involved h2 {
+    margin-top: 0; }
+
+/*# sourceMappingURL=style.css.map */

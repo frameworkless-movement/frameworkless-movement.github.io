@@ -1,0 +1,38 @@
+// reset
+
+// Content:
+// - Reset and default properties
+
+
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  *{
+    box-sizing:border-box;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  display:none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+table{
+  table-layout:fixed;
+}

@@ -1,0 +1,78 @@
+// components
+
+// Content:
+// page_wrapper
+// logo
+// github_badge
+// introduction
+// block_get_involved
+
+
+
+// page_wrapper
+.page_wrapper{
+  background-color:$white;
+  margin:0 auto;
+  padding:40px 90px;
+  max-width:1440px;
+  @include tablet{
+    padding:35px 50px;
+  }
+  @include smartphone{
+    padding:25px 25px;
+  }
+}
+
+
+
+// logo
+.logo{
+  text-align:center;
+  padding:0 0 40px 0;
+  margin:0;
+  img{
+    width:350px;
+    max-width:100%;
+  }
+}
+
+
+
+// github_badge
+.github_badge{
+  text-align:right;
+  margin-bottom:10px;
+  @include smartphone{
+    text-align:center;
+    margin-bottom:20px;
+  }
+}
+
+
+
+// introduction
+.introduction{
+  font-size:20px;
+  margin-top:20px;
+  margin-bottom:80px;
+}
+
+
+
+// block_get_involved
+.block_get_involved{
+  background-color:$primary_color3_light;
+  margin:60px -40px 5px -40px;
+  padding:25px 40px;
+  @include tablet{
+    margin:60px -20px 5px -20px;
+    padding:20px 20px;
+  }
+  @include smartphone{
+    margin:60px -10px 5px -10px;
+    padding:10px 10px;
+  }
+  h2{
+    margin-top:0;
+  }
+}

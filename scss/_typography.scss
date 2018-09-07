@@ -1,0 +1,136 @@
+// typography
+
+// Content:
+// font-face
+// body
+// a: behavior
+// title h1-h6
+// p 
+// list (ul, ol, dl)
+
+
+
+// font-face
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../font/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/Poppins-Bold.ttf')  format('truetype'),
+       url('../font/Poppins-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'IBMPlexSans-Regular';
+  src: url('../font/IBMPlexSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/IBMPlexSans-Regular.ttf')  format('truetype'),
+       url('../font/IBMPlexSans-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'IBMPlexSans-Bold';
+  src: url('../font/IBMPlexSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/IBMPlexSans-Bold.ttf')  format('truetype'),
+       url('../font/IBMPlexSans-Bold.woff.woff') format('woff');
+}
+
+$font-stack-highlight: 'Poppins-Bold', Helvetica, Arial, sans-serif;
+$font-stack-paragraph: 'IBMPlexSans-Regular', Helvetica, Arial, sans-serif;
+$font-stack-paragraph-bold: 'IBMPlexSans-Bold', Helvetica, Arial, sans-serif;
+
+%font-stack-highlight {
+  font-family:$font-stack-highlight;
+}
+%font-stack-paragraph{
+  font-family:$font-stack-paragraph;
+}
+%font-stack-paragraph-bold{
+  font-family:$font-stack-paragraph-bold;
+}
+
+
+
+// body
+body{
+  font-family:$font-stack-paragraph;
+  background-color:$secondary_color2_light;
+  color:$text;
+  font-size:1rem;
+  line-height:1.35rem;
+  padding:90px;
+  @include tablet{
+    padding:30px;
+  }
+  @include smartphone{
+    padding:15px;
+  }
+  strong{
+    font-family:$font-stack-paragraph-bold;
+  }
+}
+
+
+
+// a: behavior
+a:link,
+a:visited,
+button{
+  @include transition(.25s);
+  text-decoration:none;
+  color:$primary_color2_dark;
+  text-decoration:underline;
+  &:hover,
+  &:active {
+    text-decoration:none;
+    color:$primary_color2;
+  }
+}
+
+
+
+// title h1-h6
+h1 {
+  @extend %font-stack-highlight;
+  font-size: 48px;
+  margin:50px 0 10px 0;
+  padding:0;
+  line-height:1.2em;
+  @include smartphone{
+    font-size:38px;
+  }
+}
+h2 {
+  @extend %font-stack-highlight;
+  font-size: 40px;
+  margin:40px 0 10px 0;
+  padding:0;
+  line-height:1.4em;
+  @include smartphone{
+    font-size:28px;
+  }
+}
+h3 {
+  @extend %font-stack-highlight;
+  font-size: 32px;
+}
+h4 {
+  @extend %font-stack-highlight;
+  font-size: 24px;
+}
+h5, h6 {
+  @extend %font-stack-highlight;
+  font-size: 20px;
+}
+
+
+
+// p
+p{
+  margin:0 0 20px 0;
+  line-height:1.5em;
+}
+
+
+
+// list
+ul, ol{
+  margin:0 0 20px 0;
+  padding:0;
+  line-height:1.5em;
+}

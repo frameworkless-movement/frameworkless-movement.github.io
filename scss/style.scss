@@ -1,0 +1,41 @@
+// frameworkless main scss
+
+// Content:
+// - Mixin
+// - Mediaquery & Browserquery
+// - Partials
+
+
+
+// Mixin
+@mixin transition($valuetransition){
+    transition:$valuetransition;
+    -webkit-transition:$valuetransition;
+    -o-transition:$valuetransition;
+    -moz-transition:$valuetransition;
+}
+
+
+
+// Mediaquery & Browserquery
+$m-smartphone-width:640px;
+$m-tablet-width:768px;
+
+@mixin smartphone {
+  @media (min-width: 0) and (max-width: #{$m-smartphone-width}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: 0) and (max-width: #{$m-tablet-width}) {
+    @content;
+  }
+}
+
+
+
+// Partials
+@import "reset.scss";
+@import "palette";
+@import "typography";
+@import "components";
