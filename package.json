@@ -10,6 +10,6 @@
   },
   "homepage": "https://github.com/frameworkless-movement/frameworkless-movement.github.io#readme",
   "devDependencies": {
-    "http-server": "0.11.1"
+    "http-server": "0.11.2"
   }
 }
